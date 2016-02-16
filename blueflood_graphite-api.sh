@@ -24,9 +24,9 @@ functions:
   - graphite_api.functions.PieFunctions
 time_zone: UTC
 blueflood:
-  tenant: TENANT_ID
+  tenant: $TENANT_ID
   urls:
-    - BLUEFLOOD_URL
+    - $BLUEFLOOD_URL
 EOL
 cat > /etc/init/graphite-api.conf << EOL
 description "Graphite-API server"

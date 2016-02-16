@@ -14,3 +14,4 @@ Running Blueflood instance with both the dependencies (ES and Cassandra)
 ![alt tag](https://raw.githubusercontent.com/goru97/blueflood-graphite/master/images/Screen%20Shot%202016-02-16%20at%202.14.28%20PM.png)
 
 3. Plot Graphs! 
+![alt tag](https://raw.githubusercontent.com/goru97/blueflood-graphite/master/images/Screen%20Shot%202016-02-16%20at%202.27.48%20PM.png)

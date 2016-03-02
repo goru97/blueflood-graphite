@@ -34,6 +34,6 @@ start on runlevel [2345]
 stop on runlevel [!2345]
 console log
 respawn
-exec gunicorn -b 127.0.0.1:8888 -w 8 graphite_api.app:app
+exec gunicorn -b 127.0.0.1:8888 --access-logfile /var/log/gunicorn-access.log --error-logfile /var/log/gunicorn-error.log -w 8 graphite_api.app:app
 EOL
 start graphite-api
